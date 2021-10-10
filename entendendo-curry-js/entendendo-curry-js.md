@@ -1,7 +1,7 @@
 ---
 title: 'My first post'
 date: 'August 8 2021'
-preview: 'This is the preview'
+preview: 'Uma forma mais sofisticada de lidar com funções com múltiplos parâmetros'
 coverImage: 'some_url'
 authors: 'Jose Tone'
 ---
