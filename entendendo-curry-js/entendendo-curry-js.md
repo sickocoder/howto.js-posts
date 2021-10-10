@@ -1,5 +1,5 @@
 ---
-title: 'My first post'
+title: 'Entendendo o conceito de Curry em JS'
 date: 'August 8 2021'
 preview: 'Uma forma mais sofisticada de lidar com funções com múltiplos parâmetros'
 coverImage: 'some_url'
