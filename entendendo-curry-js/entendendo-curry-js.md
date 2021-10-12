@@ -4,6 +4,7 @@ date: 'August 8 2021'
 preview: 'Uma forma mais sofisticada de lidar com funções com múltiplos parâmetros'
 coverImage: 'some_url'
 authors: 'Jose Tone'
+label: Javascript
 ---
 
 Se você é um desenvolvedor Javascript (aposto que é 😅) e já estudou os principais conceitos da linguagem, provavelmente sabe algo sobre Closure (se não, definitivamente deve estudar). Closure é um dos conceitos/características mais importantes do Javascript, nos dá (desenvolvedores) poder ilimitado, um de seus presentes é a possibilidade de termos **Programação Funcional** em nossa linguagem. Programação funcional é um grande tópico, mas hoje focaremos apenas em Currying.

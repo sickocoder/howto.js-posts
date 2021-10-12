@@ -4,6 +4,7 @@ date: '12 de Agosto, 2021'
 preview: 'Uma ponte entre a virtual DOM e a native DOM'
 coverImage: 'some_url'
 authors: 'Jose Tone'
+label: ReactJS
 ---
 
 Num fluxo de dados normal, a única forma de componentes filhos interagirem com seus componentes filhos é fazendo recurso das props. Para modificar um aspecto/comportamento em um componente filho (a partir do pai) é necessário re-renderizar o mesmo com novas props. No entando, embora o React tenha evoluído muito ao longo do tempo e seu processo de renderização seja bem mais performático agora, há alguns casos em que é imperial modificar(as vezes acessar o estado) de um componente sem ter que re-renderizá-lo\*. O componente a ser modificado pode ser um React Component ou um DOM Element. Para estes casos o uso de referências ajuda (e muito)!
