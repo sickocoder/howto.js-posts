@@ -58,9 +58,13 @@ const Example: FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
+<<<<<<< HEAD
       if (nameRef && nameRef.current) {
         nameRef.current.value = 'Gabriela Tone';
       }
+=======
+      if (nameRef && nameRef.current) nameRef.current.value = 'Gabriela';
+>>>>>>> 6e16c0638d554cec7be6b28a4be9a6509c0c169c
     }, 2000);
   }, []);
 
