@@ -8,7 +8,7 @@ authors: 'Jose Tone'
 
 Arrays são sem medo de errar parte fundamental e uma das estruturas de dados mais usadas na programação, deste os tempos remotos até aos dias de hoje! Sua principal função é o agrupamento de dados semelhantes (ou não) para fácil uso e manipulação, mas nem sempre foi assim antigamente (e dependo da linguagem) a maior parte dos algoritmos de manipulação dos mesmos (que se dizem comuns agora) era implementados manualmente pelo programador em seu projecto. Felizmente, com o passar do tempo, alguns algoritmos que se consideram vitais são passados directamente a linguagem, trazendo assim um ganho de tempo para os programadores/desenvolvedores que precisem lidar com arrays. Hoje vamos ver um monte de funções interessantes que facilitam a nossa vida (JS/TS Devs).
 
-> Disclaimer! Para tornar a leitura mais simples vamos de agora em diante considerar que sempre que no atual artigo se mencionar função do Tipo PHOC está a se a querer referenciar à uma função que receba três parâmetros, sendo o primeiro um item/elemento, o segundo um index (do tipo inteiro) e o terceiro um array.
+> Disclaimer! Para tornar a leitura mais simples vamos de agora em diante considerar que sempre que no atual artigo se mencionar função do Tipo **PHOC** está a se a querer referenciar à uma função que receba três parâmetros, sendo o primeiro um item/elemento, o segundo um index (do tipo inteiro) e o terceiro um array.
 
 ```jsx
 function PHOC(element, index, array) {
