@@ -59,7 +59,7 @@ const Example: FC = () => {
   useEffect(() => {
     setTimeout(() => {
       if (nameRef && nameRef.current) {
-        nameRef.current.value = 'Gabriela';
+        nameRef.current.value = 'Gabriela Tone';
       }
     }, 2000);
   }, []);
