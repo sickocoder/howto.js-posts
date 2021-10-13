@@ -7,7 +7,7 @@ authors: 'Jose Tone'
 label: ReactJS
 ---
 
-Num fluxo de dados normal, a única forma de componentes filhos interagirem com seus componentes filhos é fazendo recurso das props. Para modificar um aspecto/comportamento em um componente filho (a partir do pai) é necessário re-renderizar o mesmo com novas props. No entando, embora o React tenha evoluído muito ao longo do tempo e seu processo de renderização seja bem mais performático agora, há alguns casos em que é imperial modificar(as vezes acessar o estado) de um componente sem ter que re-renderizá-lo\*. O componente a ser modificado pode ser um React Component ou um DOM Element. Para estes casos o uso de referências ajuda (e muito)!
+Num fluxo de dados normal, a única forma de componentes pais interagirem com seus componentes filhos é fazendo recurso das props. Para modificar um aspecto/comportamento em um componente filho (a partir do pai) é necessário re-renderizar o mesmo com novas props. No entando, embora o React tenha evoluído muito ao longo do tempo e seu processo de renderização seja bem mais performático agora, há alguns casos em que é imperial modificar(as vezes acessar o estado) de um componente sem ter que re-renderizá-lo\*. O componente a ser modificado pode ser um React Component ou um DOM Element. Para estes casos o uso de referências ajuda (e muito)!
 
 ### O que é referência?
 
@@ -15,7 +15,7 @@ Referência é um recurso do React que possibilita acessar (referenciar) um elem
 
 ### Okay, já entendi o conceito! Mas como é que crio uma?
 
-Atualmente existem duas formas de criar referências e elas estão directamente as duas formas de criar componentes em React (classes e funções), então, vamos para cada uma delas:
+Atualmente existem duas formas de criar referências e elas estão directamente ligadas as duas formas de criar componentes em React (classes e funções), então, vamos para cada uma delas:
 
 **Componente em classe**
 
@@ -59,9 +59,7 @@ const Example: FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      if (nameRef && nameRef.current) {
-        nameRef.current.value = 'Gabriela Tone';
-      }
+      if (nameRef && nameRef.current) nameRef.current.value = 'Gabriela';
     }, 2000);
   }, []);
 
