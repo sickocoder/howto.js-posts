@@ -17,7 +17,6 @@ Se você é das antigas provavelmente lembra de como eram os componentes baseado
 
 - **componentDidMount**
   Ele é executado depois de o componente ser montado (como o próprio nome já sugere), ou seja, depois que o componente é adicionado à árvore DOM.
-
   ```jsx
   class Clock extends React.Component {
     constructor(props) {
@@ -47,9 +46,7 @@ Se você é das antigas provavelmente lembra de como eram os componentes baseado
     }
   }
   ```
-
   exemplo tirado da documentação do React em: [https://reactjs.org/docs/state-and-lifecycle.html](https://reactjs.org/docs/state-and-lifecycle.html)
-
 - **componentDidUpdate**
   É executado sempre que o componente é re-renderizado (não é executado na primeira renderização). É um ótimo lugar para trabalhar e operar no DOM quando o componente for atualizado. Por exemplo, você pode fazer chamadas a API. Apenas certifique-se de compará-lo com as props atuais.
   ```jsx
@@ -63,7 +60,6 @@ Se você é das antigas provavelmente lembra de como eram os componentes baseado
   exemplo tirado da documentação do React em: [https://reactjs.org/docs/react-component.html#componentdidupdate](https://reactjs.org/docs/react-component.html#componentdidupdate)
 - **componentWillUnmount**
   Este é o último método do ciclo de vida do componente, é executado quando o componente é removido do DOM, é normalmente usado para limpar todas as tarefas e ou referências de objectos no componente. Aproveitando o exemplo do componentDidMount:
-
   ```jsx
   class Clock extends React.Component {
     constructor(props) {
@@ -96,7 +92,6 @@ Se você é das antigas provavelmente lembra de como eram os componentes baseado
     }
   }
   ```
-
   exemplo tirado da documentação do React em: [https://reactjs.org/docs/state-and-lifecycle.html](https://reactjs.org/docs/state-and-lifecycle.html)
 
 ### useEffect - o mágico!
@@ -134,7 +129,6 @@ Agora já vimos quais e como são os métodos de ciclo de vida dos componentes R
 
 - **useEffect como componentDidUpdate**
   A forma de definir é praticamente idêntica a do exemplo acima (useEffect como componentDidMount) porém desta vez o array de dependências (segundo parâmetro do useEffect) deve conter no mínimo um elemento. É provavelmente dentre todas a forma mais popular de definir o useEffect.
-
   ```jsx
   import React from 'react';
 
@@ -161,12 +155,9 @@ Agora já vimos quais e como são os métodos de ciclo de vida dos componentes R
     );
   };
   ```
-
   No exemplo acima o useEffect será executado (além da primeira vez quando o componente renderiza) todas as vezes que o valor da variável "date" (e qualquer outra que esteja no seu array de dependências) mudar, como a "date" é uma variável de estado a sua mutação causa uma nova renderização, fazendo assim com que o useEffect seja executado também antes dela (nova renderização).
-
 - **useEffect como componentWillUnmount**
   Para fazer o useEffect se comportar como o método componentWillUnmount em componentes baseados em classe só precisamos fazé-lo retornar uma função e executar o que queremos dentro dela. Está confuso? Vejamos o exemplo:
-
   ```jsx
   import React from 'react';
 
