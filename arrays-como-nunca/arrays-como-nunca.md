@@ -1,6 +1,6 @@
 ---
 title: 'Arrays como nunca!'
-date: 'August 8 2021'
+date: '8 de Agosto 2021'
 preview: 'Um monte de funções interessantes que facilitam o uso e manipulação de Arrays em JS'
 coverImage: 'some_url'
 authors: 'Jose Tone'

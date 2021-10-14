@@ -1,6 +1,6 @@
 ---
 title: 'Entendendo o conceito de Curry em JS'
-date: 'August 8 2021'
+date: '8 de Agosto 2021'
 preview: 'Uma forma mais sofisticada de lidar com funções com múltiplos parâmetros'
 coverImage: 'some_url'
 authors: 'Jose Tone'

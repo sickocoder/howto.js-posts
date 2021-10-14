@@ -1,6 +1,6 @@
 ---
 title: 'Referências em React'
-date: '12 de Agosto, 2021'
+date: '12 de Outubro, 2021'
 preview: 'Uma ponte entre a virtual DOM e a native DOM'
 coverImage: 'some_url'
 authors: 'Jose Tone'
