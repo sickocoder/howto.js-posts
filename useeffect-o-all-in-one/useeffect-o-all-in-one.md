@@ -1,11 +1,10 @@
 ---
-title: 'useEffect - O "all in one"
-authors: 'José Tone'
-coverImage: 'some_url'
+title: 'useEffect - O "all in one'
 date: '14 de Outubro, 2021'
-label: 'React'
 preview: 'Um dos hooks mais importantes do React'
-slug: 'useeffect-o-all-in-one'
+coverImage: 'some_url'
+authors: 'Jose Tone'
+label: 'ReactJS'
 ---
 
 Se você é das antigas provavelmente lembra de como eram os componentes baseados em classe e como os métodos para tratar o seu ciclo de vida (não faz mal se não lembrar), não havia (e não há) nenhum problema com eles, eles são bem intuitivos e fazem o seu trabalho lindamente! Mas com a introdução dos componentes baseados em funções a coisa ficou relativamente complicada, é bem mais difícil de imitar o comportamento das funções de ciclo de vida de um componente baseado em classe para outro baseado em funções. Assim como toda a gestão de estados dos componentes em classe é feita por meio de hooks, a gestão de side-effects segue a mesma convenção, ela feita pelo hook **useEffect**.
