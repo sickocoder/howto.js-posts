@@ -1,5 +1,5 @@
 ---
-title: 'useEffect - O "all in one'
+title: 'useEffect - O "all in one"'
 date: '14 de Outubro, 2021'
 preview: 'Um dos hooks mais importantes do React'
 coverImage: 'some_url'
